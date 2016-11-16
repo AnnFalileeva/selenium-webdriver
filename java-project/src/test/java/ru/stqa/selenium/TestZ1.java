@@ -20,7 +20,7 @@ public class TestZ1 {
     }
 
     @Test
-    public void TestZ1(){
+    public void testZ1(){
         driver.get("https://www.yandex.ru/");
     }
 
