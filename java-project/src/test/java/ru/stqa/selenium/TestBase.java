@@ -20,15 +20,10 @@ public class TestBase {
 
         try {
 
-            wait.until((WebDriver d)-> d.findElement(locator)); //явное ожидаение
-
-            //driver.findElement(locator);
+            wait.until((WebDriver d)-> d.findElement(locator));
             return true;
 
-
-
-        //} catch (NoSuchElementException ex){
-        } catch (TimeoutException ex){ // исключение при явном ожидании
+        } catch (NoSuchElementException ex){
 
             return false;
 
@@ -36,22 +31,18 @@ public class TestBase {
 
     }
 
-    public boolean areElementsPresent(By locator){
-        try{
-        return driver.findElements(locator).size()>0;
-        } catch (InvalidSelectorException ex) {
-            return false;
-        }
-
-    }
+    //public boolean areElementsPresent(By locator){
+    //    try{
+    //    return driver.findElements(locator).size()>0;
+    //    } catch (InvalidSelectorException ex) {
+    //        return false;
+    //    }
+    //}
 
     @Before
     public void start(){
         driver = new ChromeDriver();
-        //driver = new FirefoxDriver();
-        //driver = new InternetExplorerDriver();
         wait = new WebDriverWait(driver,10);
-        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS); //неявные ожидания
     }
 
     @After
