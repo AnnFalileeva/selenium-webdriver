@@ -16,15 +16,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
-public class TestZ3 {
+public class TestZ3 extends TestBase {
 
-    private WebDriver driver;
-    private WebDriverWait wait;
+    //private WebDriver driver;
+    //private WebDriverWait wait;
 
 
-    @Before
-    public void start(){
+    //@Before
+    //public void start(){
         //driver = new ChromeDriver();
         //driver = new FirefoxDriver();
         //driver = new InternetExplorerDriver();
@@ -37,10 +40,10 @@ public class TestZ3 {
         ///----------------------------------------
 
         /// второй вариант запуска FF по старой схеме
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability(FirefoxDriver.MARIONETTE, false);
-        FirefoxBinary bin = new FirefoxBinary( new File("C:\\Program Files\\Firefox ESR\\firefox.exe"));
-        driver = new FirefoxDriver(bin, new FirefoxProfile(), caps);
+        //DesiredCapabilities caps = new DesiredCapabilities();
+        //caps.setCapability(FirefoxDriver.MARIONETTE, false);
+        //FirefoxBinary bin = new FirefoxBinary( new File("C:\\Program Files\\Firefox ESR\\firefox.exe"));
+        //driver = new FirefoxDriver(bin, new FirefoxProfile(), caps);
         /// --------------------------------------------------------
 
         /// запуск Firefox Nightly
@@ -58,8 +61,8 @@ public class TestZ3 {
         //driver = new ChromeDriver(caps);
         ///-----------------------------------------------------------
 
-        wait = new WebDriverWait(driver,10);
-    }
+        //wait = new WebDriverWait(driver,10);
+    //}
 
     @Test
     public void login(){
@@ -71,9 +74,27 @@ public class TestZ3 {
 
     }
 
-    @After
-    public void stop(){
-        driver.quit();
-        driver=null;
+    @Test
+    public void MyTest(){
+        driver.get("http://www.google.com");
+        //assertFalse(isElementPresent(By.name("fff")));
+        assertFalse(isElementPresent(By.xpath("//div[")));
     }
+
+    @Test
+    public void waitTest(){
+        driver.get("http://www.google.com");
+        driver.findElement(By.name("q")).sendKeys("Webdriver");
+        WebElement btnG = driver.findElement(By.name("btnG"));
+        btnG.click();
+        assertTrue(isElementPresent(By.cssSelector(".rc")));
+
+
+    }
+
+    //@After
+    //public void stop(){
+    //    driver.quit();
+    //    driver=null;
+    //}
 }
