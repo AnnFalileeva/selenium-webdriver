@@ -31,6 +31,10 @@ public class TestBase {
 
     }
 
+    public boolean isOneElementPresent(WebElement element, By locator){
+        return element.findElements(locator).size()==1;
+    }
+
     //public boolean areElementsPresent(By locator){
     //    try{
     //    return driver.findElements(locator).size()>0;
