@@ -5,9 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertArrayEquals;
 
 public class TestZ9 extends TestBase{
 
@@ -32,7 +33,12 @@ public class TestZ9 extends TestBase{
             countries.add(countryName);
         }
 
-        assertTrue(isSort(countries));
+        String[] arrCountries = countries.toArray(new String[countries.size()]);
+        String[] arrSortCountries = countries.toArray(new String[countries.size()]);
+        Arrays.sort(arrSortCountries);
+
+        assertArrayEquals(arrCountries,arrSortCountries);
+        //assertTrue(isSort(countries));
 
         // проверка сортировки зон стран
 
@@ -54,7 +60,13 @@ public class TestZ9 extends TestBase{
                     String zoneName = element.getAttribute("value");
                     zones.add(zoneName);
                 }
-                assertTrue(isSort(zones));
+                String[] arrZones = zones.toArray(new String[zones.size()]);
+                String[] arrSortZones = zones.toArray(new String[zones.size()]);
+                Arrays.sort(arrSortZones);
+
+                assertArrayEquals(arrZones,arrSortZones);
+
+                //assertTrue(isSort(zones));
                 driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
             }
         }
@@ -88,7 +100,12 @@ public class TestZ9 extends TestBase{
                 String zoneName = element.findElement(By.cssSelector("[selected]")).getAttribute("textContent");
                 zones.add(zoneName);
 
-                assertTrue(isSort(zones));
+                String[] arrZones = zones.toArray(new String[zones.size()]);
+                String[] arrSortZones = zones.toArray(new String[zones.size()]);
+                Arrays.sort(arrSortZones);
+
+                assertArrayEquals(arrZones,arrSortZones);
+                //assertTrue(isSort(zones));
             }
 
             driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
