@@ -6,22 +6,33 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElementLocated;
 
 public class TestZ11 extends TestBase{
 
     @Test
     public void regist(){
+
         driver.get("http://localhost/litecart/en/");
 
-        registration();
-        //logout();
-        //login();
-        //logout();
+        String email = "qa_st_12310@yandex.ru";
+        String password = "111111";
+
+        registration(email,password);
+        logout();
+        login(email,password);
+        logout();
 
     }
 
-    public void registration(){
+    private void registration(String email,String password){
         driver.findElement(By.cssSelector("#box-account-login a")).click();
+
+        driver.findElement(By.cssSelector("[name=tax_id]")).clear();
+        driver.findElement(By.cssSelector("[name=tax_id]")).sendKeys("12331324");
+
+        driver.findElement(By.cssSelector("[name=company]")).clear();
+        driver.findElement(By.cssSelector("[name=company]")).sendKeys("IT Company");
 
         driver.findElement(By.cssSelector("[name=firstname]")).clear();
         driver.findElement(By.cssSelector("[name=firstname]")).sendKeys("Anna");
@@ -32,49 +43,59 @@ public class TestZ11 extends TestBase{
         driver.findElement(By.cssSelector("[name=address1]")).clear();
         driver.findElement(By.cssSelector("[name=address1]")).sendKeys("г. Ростов-на-Дону, ул. Б.-Садовая,55");
 
+        driver.findElement(By.cssSelector("[name=address2]")).clear();
+        driver.findElement(By.cssSelector("[name=address2]")).sendKeys("г. Ростов-на-Дону, пр. Стачки, 44");
+
         driver.findElement(By.cssSelector("[name=postcode]")).clear();
-        driver.findElement(By.cssSelector("[name=postcode]")).sendKeys("355010");
+        driver.findElement(By.cssSelector("[name=postcode]")).sendKeys("35501-6789");
 
         driver.findElement(By.cssSelector("[name=city]")).clear();
         driver.findElement(By.cssSelector("[name=city]")).sendKeys("Ростов-на-Дону");
 
         Select country = new Select(driver.findElement(By.cssSelector("select[name=country_code]")));
-        //country.selectByValue("US");
-        country.selectByVisibleText("United States");
+        country.selectByValue("US");
 
-        wait.until(presenceOfElementLocated(By.cssSelector("select[name=zone_code]")));
+        wait.until(textToBePresentInElementLocated(By.cssSelector("select[name=zone_code]"),"Alabama"));
         Select zone = new Select(driver.findElement(By.cssSelector("select[name=zone_code]")));
-        //zone.selectByValue("AK");
-        zone.selectByVisibleText("Arizona");
+        zone.selectByValue("AK");
 
         driver.findElement(By.cssSelector("[name=email]")).clear();
-        driver.findElement(By.cssSelector("[name=email]")).sendKeys("qa_st_1235@yandex.ru");
+        driver.findElement(By.cssSelector("[name=email]")).sendKeys(email);
 
         driver.findElement(By.cssSelector("[name=phone]")).clear();
-        driver.findElement(By.cssSelector("[name=phone]")).sendKeys("+79612223344");
+        driver.findElement(By.cssSelector("[name=phone]")).sendKeys("+19612223344");
+
+        driver.findElement(By.cssSelector("[name=newsletter]")).click();
 
         driver.findElement(By.cssSelector("[name=password]")).clear();
-        driver.findElement(By.cssSelector("[name=password]")).sendKeys("11111111");
+        driver.findElement(By.cssSelector("[name=password]")).sendKeys(password);
 
         driver.findElement(By.cssSelector("[name=confirmed_password]")).clear();
-        driver.findElement(By.cssSelector("[name=confirmed_password]")).sendKeys("11111111");
+        driver.findElement(By.cssSelector("[name=confirmed_password]")).sendKeys(password);
 
-        //driver.findElement(By.cssSelector("[name=create_account]")).click();
-    }
+        driver.findElement(By.cssSelector("[name=create_account]")).click();
 
-    public void login(){
-        wait.until(presenceOfElementLocated(By.cssSelector("[name=email]")));
-        driver.findElement(By.cssSelector("[name=email]")).clear();
-        driver.findElement(By.cssSelector("[name=email]")).sendKeys("qa_st_123@yandex.ru");
-        driver.findElement(By.cssSelector("[name=password]")).clear();
-        driver.findElement(By.cssSelector("[name=password]")).sendKeys("11111111");
-        driver.findElement(By.cssSelector("[name=login]")).click();
-    }
-
-    public void logout(){
         wait.until(presenceOfElementLocated(By.cssSelector("#box-account li:last-child")));
-        driver.findElement(By.cssSelector("#box-account li:last-child a")).click();
+
     }
+
+    private void login(String email,String password){
+
+        driver.findElement(By.cssSelector("[name=email]")).clear();
+        driver.findElement(By.cssSelector("[name=email]")).sendKeys(email);
+        driver.findElement(By.cssSelector("[name=password]")).clear();
+        driver.findElement(By.cssSelector("[name=password]")).sendKeys(password);
+        driver.findElement(By.cssSelector("[name=login]")).click();
+        wait.until(presenceOfElementLocated(By.cssSelector("#box-account li:last-child")));
+
+    }
+
+    private void logout(){
+
+        driver.findElement(By.cssSelector("#box-account li:last-child a")).click();
+        wait.until(presenceOfElementLocated(By.cssSelector("[name=email]")));
+    }
+
 
 
 }
