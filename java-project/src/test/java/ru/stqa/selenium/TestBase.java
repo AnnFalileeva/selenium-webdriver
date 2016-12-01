@@ -55,6 +55,14 @@ public class TestBase {
     }
 
 
+    public void loginToLitecartAdmin(){
+
+        driver.get("http://localhost/litecart/admin/");
+
+        driver.findElement(By.name("username")).sendKeys("admin");
+        driver.findElement(By.name("password")).sendKeys("admin");
+        driver.findElement(By.name("login")).click();
+    }
 
     //public boolean areElementsPresent(By locator){
     //    try{
