@@ -7,6 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
@@ -64,13 +65,18 @@ public class TestBase {
         driver.findElement(By.name("login")).click();
     }
 
-    //public boolean areElementsPresent(By locator){
-    //    try{
-    //    return driver.findElements(locator).size()>0;
-    //    } catch (InvalidSelectorException ex) {
-    //        return false;
-    //    }
-    //}
+    public void setDatepicker(By locator, String date) {
+
+        WebElement datapiker = driver.findElement(locator);
+        JavascriptExecutor.class.cast(driver).executeScript("arguments[0].value=arguments[1]", datapiker, date);
+    }
+
+    public void selectByValue(By locator, String value){
+
+        Select field = new Select(driver.findElement(locator));
+        field.selectByValue(value);
+
+    }
 
     @Before
     public void start(){
