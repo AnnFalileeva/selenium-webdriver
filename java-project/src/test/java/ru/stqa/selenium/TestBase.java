@@ -65,19 +65,6 @@ public class TestBase {
         driver.findElement(By.name("login")).click();
     }
 
-    public void setDatepicker(By locator, String date) {
-
-        WebElement datapiker = driver.findElement(locator);
-        JavascriptExecutor.class.cast(driver).executeScript("arguments[0].value=arguments[1]", datapiker, date);
-    }
-
-    public void selectByValue(By locator, String value){
-
-        Select field = new Select(driver.findElement(locator));
-        field.selectByValue(value);
-
-    }
-
     @Before
     public void start(){
         driver = new ChromeDriver();

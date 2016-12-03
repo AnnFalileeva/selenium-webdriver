@@ -40,7 +40,7 @@
       <file leaf-file-name="TestZ11.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="798">
               <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,8 +52,8 @@
       <file leaf-file-name="TestZ12.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="803">
+              <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
-              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -394,8 +394,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ9.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ10.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ11.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ12.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestBase.java" />
       </list>
     </option>
   </component>
@@ -900,9 +900,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestZ12_createProduct - 2016.12.03 at 00h 05m 48s.xml">
-      <configuration name="TestZ12.createProduct" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestZ12_createProduct - 2016.12.03 at 00h 09m 06s.xml">
       <configuration name="TestZ12.createProduct" configurationId="JUnit" />
     </history-entry>
@@ -928,6 +925,9 @@
       <configuration name="TestZ12.createProduct" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestZ12_createProduct - 2016.12.03 at 00h 20m 21s.xml">
+      <configuration name="TestZ12.createProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestZ12_createProduct - 2016.12.03 at 20h 23m 07s.xml">
       <configuration name="TestZ12.createProduct" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1284,16 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -1321,7 +1311,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1330,8 +1330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="803">
+          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
