@@ -2,16 +2,13 @@ package ru.stqa.selenium;
 
 
 
-import org.apache.commons.logging.Log;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.logging.LogEntry;
 import static org.junit.Assert.assertTrue;
-
-
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class TestZ17 extends TestBase {
 
