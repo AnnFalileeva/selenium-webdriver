@@ -37,20 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestZ11.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ11.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="50" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestZ14.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="-1">
               <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,25 +49,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestZ15.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ15.java">
+      <file leaf-file-name="TestWork10.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestWork10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="71">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestZ16.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestZ15.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ15.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestZ16.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ16.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="542">
               <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyListener.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/MyListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,18 +98,8 @@
       <file leaf-file-name="TestZ3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="883">
-              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteWebDriver.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.0.1/737751d78d8053f6274f6033b42888aa99a49a30/selenium-remote-driver-3.0.1-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="153" column="9" selection-start-line="153" selection-start-column="9" selection-end-line="153" selection-end-column="9" />
+            <state relative-caret-position="502">
+              <caret line="74" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -106,8 +108,8 @@
       <file leaf-file-name="TestZ13.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="23" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="189">
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -116,21 +118,9 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="486">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestZ12.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ12.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="22" column="79" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -432,6 +422,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ15.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ16.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestWork10.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/selenium/MyListener.java" />
       </list>
     </option>
   </component>
@@ -443,10 +435,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="94" />
-    <option name="y" value="114" />
-    <option name="width" value="1406" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -473,8 +465,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -519,70 +512,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Курс Selenium Полное руководство/2. Первые шаги пробежимся по верхам/1. Инфраструктура для работы с Selenium/selenium-training-d2f90644976c711efe9f1f89762752c9801a8e7b/java-example" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/autoconfetqa2012_barancev/autoconfetqa2012" />
   </component>
-  <component name="RunManager" selected="JUnit.TestZ16">
-    <configuration default="false" name="TestZ13.cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="java-project_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.stqa.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.selenium.TestZ13" />
-      <option name="METHOD_NAME" value="cart" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestZ14.checkRef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="java-project_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.stqa.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.selenium.TestZ14" />
-      <option name="METHOD_NAME" value="checkRef" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestWork10.login">
     <configuration default="false" name="TestZ15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -649,6 +615,58 @@
       <option name="MAIN_CLASS_NAME" value="ru.stqa.selenium.TestZ16" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestWork10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-project_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.selenium.TestWork10" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestWork10.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-project_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.selenium.TestWork10" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -906,19 +924,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestZ13.cart" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestZ14.checkRef" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestZ15" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestZ15.myTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestZ16" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestZ15" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestZ15.myTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestZ16" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestWork10" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestWork10.login" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestZ16" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestZ15" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestZ15.myTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestZ14.checkRef" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestZ13.cart" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestWork10.login" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestWork10" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestZ16" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestZ15" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestZ15.myTest" />
       </list>
     </recent_temporary>
   </component>
@@ -936,11 +954,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestZ15 - 2016.12.14 at 19h 11m 03s.xml">
-      <configuration name="TestZ15" configurationId="JUnit" />
+    <history-entry file="TestWork10 - 2016.12.15 at 22h 29m 33s.xml">
+      <configuration name="TestWork10" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestZ15 - 2016.12.14 at 19h 12m 35s.xml">
-      <configuration name="TestZ15" configurationId="JUnit" />
+    <history-entry file="TestWork10_login - 2016.12.15 at 22h 29m 58s.xml">
+      <configuration name="TestWork10.login" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestZ15 - 2016.12.14 at 19h 16m 01s.xml">
       <configuration name="TestZ15" configurationId="JUnit" />
@@ -968,8 +986,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="114" width="1406" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -978,12 +996,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37843552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37768817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34316546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34254497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18251929" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1047,24 +1065,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="79" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1079,7 +1079,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="23" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,7 +1098,7 @@
         <state relative-caret-position="204">
           <caret line="22" column="79" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="79" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1138,7 +1140,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1179,7 +1181,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1235,9 +1237,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" column="70" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,16 +1268,6 @@
         <state relative-caret-position="85">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1346,14 +1336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1389,26 +1371,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.0.1/737751d78d8053f6274f6033b42888aa99a49a30/selenium-remote-driver-3.0.1-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="1360">
           <caret line="153" column="9" selection-start-line="153" selection-start-column="9" selection-end-line="153" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#0#34240#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4058#4059#0" expanded="false" />
+            <element signature="e#4105#4106#0" expanded="false" />
+            <element signature="e#5246#5247#0" expanded="false" />
+            <element signature="e#5293#5294#0" expanded="false" />
+            <element signature="e#8204#8205#0" expanded="false" />
+            <element signature="e#8230#8231#0" expanded="false" />
+            <element signature="e#8281#8282#0" expanded="false" />
+            <element signature="e#8327#8328#0" expanded="false" />
+            <element signature="e#8394#8395#0" expanded="false" />
+            <element signature="e#8443#8444#0" expanded="false" />
+            <element signature="e#10674#10675#0" expanded="false" />
+            <element signature="e#10697#10698#0" expanded="false" />
+            <element signature="e#11206#11207#0" expanded="false" />
+            <element signature="e#11228#11229#0" expanded="false" />
+            <element signature="e#11271#11272#0" expanded="false" />
+            <element signature="e#11300#11301#0" expanded="false" />
+            <element signature="e#11355#11356#0" expanded="false" />
+            <element signature="e#11392#11393#0" expanded="false" />
+            <element signature="e#11441#11442#0" expanded="false" />
+            <element signature="e#11466#11467#0" expanded="false" />
+            <element signature="e#11531#11532#0" expanded="false" />
+            <element signature="e#11565#11566#0" expanded="false" />
+            <element signature="e#11608#11609#0" expanded="false" />
+            <element signature="e#11637#11638#0" expanded="false" />
+            <element signature="e#11670#11671#0" expanded="false" />
+            <element signature="e#11735#11736#0" expanded="false" />
+            <element signature="e#12994#12995#0" expanded="false" />
+            <element signature="e#13032#13033#0" expanded="false" />
+            <element signature="e#13074#13075#0" expanded="false" />
+            <element signature="e#13111#13112#0" expanded="false" />
+            <element signature="e#15106#15107#0" expanded="false" />
+            <element signature="e#15147#15148#0" expanded="false" />
+            <element signature="e#15207#15208#0" expanded="false" />
+            <element signature="e#15249#15250#0" expanded="false" />
+            <element signature="e#15308#15309#0" expanded="false" />
+            <element signature="e#15356#15357#0" expanded="false" />
+            <element signature="e#15422#15423#0" expanded="false" />
+            <element signature="e#15471#15472#0" expanded="false" />
+            <element signature="e#15537#15538#0" expanded="false" />
+            <element signature="e#15593#15594#0" expanded="false" />
+            <element signature="e#15781#15782#0" expanded="false" />
+            <element signature="e#15828#15829#0" expanded="false" />
+            <element signature="e#15893#15894#0" expanded="false" />
+            <element signature="e#15941#15942#0" expanded="false" />
+            <element signature="e#15996#15997#0" expanded="false" />
+            <element signature="e#16039#16040#0" expanded="false" />
+            <element signature="e#16101#16102#0" expanded="false" />
+            <element signature="e#16145#16146#0" expanded="false" />
+            <element signature="e#16205#16206#0" expanded="false" />
+            <element signature="e#16254#16255#0" expanded="false" />
+            <element signature="e#16321#16322#0" expanded="false" />
+            <element signature="e#16371#16372#0" expanded="false" />
+            <element signature="e#16433#16434#0" expanded="false" />
+            <element signature="e#16484#16485#0" expanded="false" />
+            <element signature="e#16553#16554#0" expanded="false" />
+            <element signature="e#16605#16606#0" expanded="false" />
+            <element signature="e#16661#16662#0" expanded="false" />
+            <element signature="e#16705#16706#0" expanded="false" />
+            <element signature="e#16768#16769#0" expanded="false" />
+            <element signature="e#16813#16814#0" expanded="false" />
+            <element signature="e#16859#16860#0" expanded="false" />
+            <element signature="e#16934#16935#0" expanded="false" />
+            <element signature="e#16959#16960#0" expanded="false" />
+            <element signature="e#16997#16998#0" expanded="false" />
+            <element signature="e#19233#19234#0" expanded="false" />
+            <element signature="e#19284#19285#0" expanded="false" />
+            <element signature="e#19321#19322#0" expanded="false" />
+            <element signature="e#19363#19364#0" expanded="false" />
+            <element signature="e#19397#19398#0" expanded="false" />
+            <element signature="e#19436#19437#0" expanded="false" />
+            <element signature="e#19465#19466#0" expanded="false" />
+            <element signature="e#19510#19511#0" expanded="false" />
+            <element signature="e#19587#19588#0" expanded="false" />
+            <element signature="e#19623#19624#0" expanded="false" />
+            <element signature="e#19686#19687#0" expanded="false" />
+            <element signature="e#19712#19713#0" expanded="false" />
+            <element signature="e#19861#19862#0" expanded="false" />
+            <element signature="e#19889#19890#0" expanded="false" />
+            <element signature="e#22512#22513#0" expanded="false" />
+            <element signature="e#22580#22581#0" expanded="false" />
+            <element signature="e#22628#22629#0" expanded="false" />
+            <element signature="e#22658#22659#0" expanded="false" />
+            <element signature="e#22693#22694#0" expanded="false" />
+            <element signature="e#22718#22719#0" expanded="false" />
+            <element signature="e#22747#22748#0" expanded="false" />
+            <element signature="e#22769#22770#0" expanded="false" />
+            <element signature="e#23899#23900#0" expanded="false" />
+            <element signature="e#23928#23929#0" expanded="false" />
+            <element signature="e#24027#24028#0" expanded="false" />
+            <element signature="e#24058#24059#0" expanded="false" />
+            <element signature="e#24259#24260#0" expanded="false" />
+            <element signature="e#24340#24341#0" expanded="false" />
+            <element signature="e#24387#24388#0" expanded="false" />
+            <element signature="e#24436#24437#0" expanded="false" />
+            <element signature="e#24474#24475#0" expanded="false" />
+            <element signature="e#24529#24530#0" expanded="false" />
+            <element signature="e#26100#26101#0" expanded="false" />
+            <element signature="e#26141#26142#0" expanded="false" />
+            <element signature="e#26172#26173#0" expanded="false" />
+            <element signature="e#26223#26224#0" expanded="false" />
+            <element signature="e#26263#26264#0" expanded="false" />
+            <element signature="e#26302#26303#0" expanded="false" />
+            <element signature="e#26970#26971#0" expanded="false" />
+            <element signature="e#27025#27026#0" expanded="false" />
+            <element signature="e#29455#29456#0" expanded="false" />
+            <element signature="e#29519#29520#0" expanded="false" />
+            <element signature="e#29553#29554#0" expanded="false" />
+            <element signature="e#29619#29620#0" expanded="false" />
+            <element signature="e#29713#29714#0" expanded="false" />
+            <element signature="e#29757#29758#0" expanded="false" />
+            <element signature="e#29786#29787#0" expanded="false" />
+            <element signature="e#29833#29834#0" expanded="false" />
+            <element signature="e#29867#29868#0" expanded="false" />
+            <element signature="e#29889#29890#0" expanded="false" />
+            <element signature="e#29920#29921#0" expanded="false" />
+            <element signature="e#29958#29959#0" expanded="false" />
+            <element signature="e#29987#29988#0" expanded="false" />
+            <element signature="e#30031#30032#0" expanded="false" />
+            <element signature="e#32592#32593#0" expanded="false" />
+            <element signature="e#32642#32643#0" expanded="false" />
+            <element signature="e#32670#32671#0" expanded="false" />
+            <element signature="e#32719#32720#0" expanded="false" />
+            <element signature="e#32750#32751#0" expanded="false" />
+            <element signature="e#32828#32829#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ13.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="23" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="629">
+          <caret line="42" column="50" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1418,22 +1519,38 @@
         <state relative-caret-position="204">
           <caret line="22" column="79" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="79" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="70" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="883">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        <state relative-caret-position="502">
+          <caret line="74" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="-1">
           <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1443,20 +1560,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ15.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="289">
           <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ16.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="542">
           <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestZ13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/TestWork10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/selenium/MyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
