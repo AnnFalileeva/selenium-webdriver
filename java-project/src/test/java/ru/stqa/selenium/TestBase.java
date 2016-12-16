@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.concurrent.TimeUnit;
+
 
 public class TestBase {
 
@@ -36,6 +36,19 @@ public class TestBase {
 
     public boolean isOneElementPresent(WebElement element, By locator){
         return element.findElements(locator).size()==1;
+    }
+
+    public boolean areBrowserLogsPresent(int logSize){
+
+        if (logSize > 0){
+            System.out.println("Логи есть.");
+        }
+        else{
+            System.out.println("Логов нет.");
+        }
+
+        return logSize>0;
+
     }
 
     public boolean isSort(ArrayList list){
