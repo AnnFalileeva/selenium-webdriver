@@ -49,13 +49,9 @@ public class Application extends TestsBase{
         return cartPage.getProductsQuantityFromTable();
     }
 
-    private void removeProduct(){
-        cartPage.removeProduct();
-    }
-
     public void removeAddedProducts(int number){
         for (int i=1; i<=number;i++){
-            removeProduct();
+            cartPage.removeProduct();
 
             // не проверяем после удаления последнего элемента, так как таблицы нет
             if (i!=number){
